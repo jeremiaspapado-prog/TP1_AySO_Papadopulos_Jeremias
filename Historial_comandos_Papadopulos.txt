@@ -1,0 +1,332 @@
+sudo apt update
+su
+su -l
+flatpak run org.flycast.Flycast
+su
+flatpak run org.flycast.Flycast
+exit
+flatpak run org.flycast.Flycast
+glxinfo | grep OpenGL
+sudo apt update
+su
+su -l
+flatpak run org.flycast.Flycast
+glxinfo | grep OpenGL
+glxinfo | grep OpenGL
+flatpak run org.flycast.Flycast
+glxinfo | grep "OpenGL"~
+glxinfo | grep "OpenGL"
+su -l
+su
+su -l
+clear
+mv ~/Descargas/juegos_ps1 ~/roms/
+mv ~/Descargas/juegos_snes_esp ~/roms/
+mv ~/Descargas/juegos_megadrive_esp ~/roms/
+ls -ld ~/roms
+ls -l ~/roms
+sudo chown -R $USER:$USER ~/roms
+su -
+mv ~/Descargas/juegos_megadrive_esp ~/roms/
+ls ~/Descargas
+ld
+ls
+unrar x '!!!Roms Español Listos PC ENGINE!!!.rar'
+ls
+unzip 'nes.7z'
+gamemoded -s
+gamemoderun flatpak run org.libretro.RetroArch
+sudo apt update
+su -l
+gamemoderun retroarch
+gamemoded -s
+sudo apt update
+gamemoderun flatpak run org.libretro.RetroArch
+sdf
+apt install xdg-desktop-portal xdg-desktop-portal-gtk dbus-x11
+sudo apt install xdg-desktop-portal xdg-desktop-portal-gtk dbus-x11
+su -l
+glxinfo | grep "renderer"
+echo $XDG_SESSION_TYPE
+rm -rf "/home/jere22/.steam/debian-installation/steamapps/common/Half-Life/cstrike"
+rm -rf "/home/jere22/.steam/debian-installation/steamapps/common/Half-Life/valve"
+rm -rf ~/.steam/debian-installation/userdata/*/10
+rm -rf ~/.steam/debian-installation/userdata/*/70
+sudo apt install ./discord-*.deb
+su -l
+flatpak install flathub com.discordapp.Discord
+discord
+clear
+discord --disable-gpu --disable-software-rasterizer
+unzip fbneo_1003_bestset.zip
+unzip fbneo_1_0_0_3_best.zip
+sudo apt install linux-image6.1-amd64
+su -l
+unjame .r
+sudo systemctl restart display-manager
+su -l
+glxinfo | grep "OpenGL renderer
+
+
+glxinfo | grep "OpenGL renderer"
+su -l
+glxinfo | grep "OpenGL renderer"
+su -l
+glxinfo -B
+sudo apt install xserver-xorg-video-intel
+su -l
+glxinfo | grep "OpenGL renderer"
+su -l
+export MESA_LOADER_DRIVER_OVERRIDE=i965
+glxinfo -B
+reboot
+reebot
+su -l
+glxinfo -B
+glxinfo | grep "OpenGL renderer"
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf
+su -l
+glxinfo | grep "OpenGL renderer"
+reboot
+su -l
+glxinfo | grep "OpenGL renderer"
+re
+sudo systemctl restart display-manager
+su -l
+sudo apt install xserver-xorg-video-intel mesa-utils
+su -l
+export MESA_LOADER_DRIVER_OVERRIDE=i965
+glxinfo -B
+unset MESA_LOADER_DRIVER_OVERRIDE
+unset LIBGL_ALWAYS_SOFTWARE
+echo $MESA_LOADER_DRIVER_OVERRIDE
+sudo apt install libgl1-mesa-dri libglx-mesa0 mesa-utils xserver-xorg-video-intel xserver-xorg-core
+su -l
+glxinfo -B
+reboot
+su -l
+glxinfo -B
+glxinfo -B
+lspci -k | grep -A3 VGA
+dmesg | grep -i i915
+su -l
+glxinfo | grep "OpenGL renderer"
+glxinfo -B
+ping google.com 
+glxinfo | grep VGA
+glxinfo | grep "VGA3D"
+glxinfo | grep "OpenGL renderer"
+su -l
+sudo apt update
+sudo apt upgrade
+sudo reboot 
+sudo apt purge xserver-xorg-video-intel
+sudo apt update
+echo $XDG_SESSION_TYPE
+lspci -k | grep -A 3 -E "VGA|3D"
+sudo rm /etc/X11/xorg.conf.d/20-g41.conf 
+sudo apt update
+sudo aps install firmware-misc-nonfree intel-microcode
+sudo apt install firmware-misc-nonfree intel-microcode
+sudo apt autoremove
+sudo apt install firmware-misc-nonfree intel-microcode
+clear
+sudo apt install firmware-misc-nonfree intel-microcode
+sudo apt purge xserver-xorg-video-intel
+sudo reboot
+glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
+sudo apt update
+sudo apt install --reinstall libgl1-mesa-dri libglx-mesa0 mesa-va-drivers mesa-vdpau-drivers
+sudo nano /etc/modules
+sudo update-initramfs -u
+sudo reboot
+glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
+sudo rm /etc/X11/xorg.conf.d/00-force-hw.conf 
+sudo rm /etc/X11/xorg.conf.d/
+mc
+sudo nano /etc/X11/xorg.conf.d/20-video.conf
+sudo reboot
+glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
+sudo ret
+ls
+clear
+RetroArch
+flatpak run org.libretro.RetroArch --menu --driver gl
+flatpak run org.libretro.retroarch --menu --driver gl
+flatpak run org.libretro.RetroArch --menu --driver gl
+clear
+flatpak run org.libretro.RetroArch --menu --driver gl
+flatpak run org.libretro.RetroArch --verbose -v
+su
+flatpak update
+clear
+flatpak repair
+tfthfh
+sudo systemctl restart display-manager
+sudo
+xfconf-query -c xfwm4 -p /general/use_compositing -s false
+xfconf-query -c xfwm4 -p /general/use_compositing -s true
+journalctl -b 0 -e | grep -iE "kernel|xorg|retroarch" | tail -n 30
+flatpak override --user --device=all --share=ipc org.libretro.RetroArch
+flatpak update
+flatpak override --user --socket=x11 --socket=fallback-x11 --device=all org.libretro.RetroArch
+sudo usermod -aG video,render $USER
+flatpak repair
+flatpak update
+flatpak uninstall --unused
+flatpak override --user --filesystem=/tmp org.libretro.RetroArch
+flatpak override --user --filesystem=xdg-run/dconf org.libretro.RetroArch
+mv ~/.var/app/org.libretro.RetroArch/config/retroarch/retroarch.cfg ~/.var/app/org.libretro.RetroArch/config/retroarch/retroarch_old.cfg
+sudo snap install discord
+sudo apt update && sudo apt upgrade -y
+sudo nano /etc/default/grub
+sudo update-grub
+sudo dpkg --configure -a
+sudo apt-get install -f
+ls
+cd Descargas
+wget "https://discord.com/api/download?platform=linux&format=deb" -O discord.deb
+sudo apt install ./discord.deb
+sudo apt autoremove -y
+sudo dpkg --remove --force-remove-reinstreq linux-image-6.1.0-42-amd64
+sudo rm -f /etc/kernel/postrm.d/z50-raspi-firmware
+sudo dpkg --remove --force-all linux-image-6.1.0-42-amd64
+sudo apt-get install -f
+sudo apt autoremove -y
+sudo update-grub
+discord
+clear
+nano ~/.config/discord/settings.json
+discord --disable-gpu --no-sandbox
+clear
+pkill discord
+nano ~/.config/discord/settings.json
+discord --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --no-sandbox
+ps aux | grep -i discord
+pkill discord
+sudo apt install htop
+htop
+sudo apt install ntp -y
+sudo service ntp restart
+sudo apt install dnsutils -y
+clear
+man man
+free -h
+sudo fallocate -l 4G /swapfile_extra
+sudo chmod 600 /swapfile_extra
+sudo mkswap /swapfile_extra
+sudo swapon /swapfile_extra
+ls -lh /swapfile_extra
+sudo cp /etc/fstab /etc/fstab.bak
+sudo nano /etc/fstab
+sudo mount -a
+sudo swapon -show
+sudo systemctl daemon-reload
+swapon --show
+sudo swapon --show
+sudo chown root:root /swapfile_extra
+sudo chmod 600 /swapfile_extra
+sudo systemctl restart
+sudo systemctl restart lightdm
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone <git@github.com:jeremiaspapado-prog/TP1_AySO_Papadopulos_Jeremias.git>
+git clone git@github.com:jeremiaspapado-prog/TP1_AySO_Papadopulos_Jeremias.git
+sudo apt update
+sudo apt install git
+git clone git@github.com:jeremiaspapado-prog/TP1_AySO_Papadopulos_Jeremias.git
+cd TP1_AySO_Papadopulos_Jeremias/
+pwd 
+s -l 
+ñs -l
+ls -l
+cat /etc/os-release
+man grep
+grep -i "HOME_URL" /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i  Home_url /etc/os-release 
+grep -i Home_url /etc/os-release >
+datos_url.txt 
+grep -i "HOME_URL" /etc/os-release > datos_url.txt
+cat datos_url.txt
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+git add . 
+git config --global user.email "TU-email"
+git config --global user.name "Tu-
+Usuario"
+Arquitectura y Sistemas Operativos
+TP1 - Creación repo Git y comandos básicos
+6
+Punto 4. Subir los archivos creados al repositorio de GitHub
+● Agregar todos los archivos generados en el Staging Area del repositorio local de git.
+git add . agregamos todos los archivos al staging
+git config --global user.email "TU-email"
+git config --global user.name "Tu-
+Usuario"
+configuramos el usuario de git
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuario.txt" realizamos el commit Según las buenas prácticas
+https://www.conventionalcommits.org/es/v1.0.0-beta.3/
+git status
+git status
+git push
+git config --global user.email "jeremiaspapadopulos@gmail.com"
+git config --global user.name "Jeremías Papadopulos"
+git commit --amend --reset-author --no-edit
+git push --force
+git log
+cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Jeremías Papadopulos
+División: 4
+EOF
+
+cat <EOF >> README.md
+cat <<EOF > README.md
+Alumno: Jeremías Papadopulos
+División: 114
+Turno: Mañana
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git push
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+git status
+mkdir -p materia{1,2}/uni{1,2,3}
+rm -rf materia1 materia2
+cd..
+cd ..
+pwd
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+ls 
+cd materia1
+ls
+cd ..
+cd materia2
+ls
+cat <<EOF > script_dir.sh
+#!/bin/bash
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+EOF
+
+chmod +x script_dir.sh
+git add .
+cd ~/repogit/TP1_AySO_Papadopulos_Jeremias
+mv ~/materia2/script_dir.sh .
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
