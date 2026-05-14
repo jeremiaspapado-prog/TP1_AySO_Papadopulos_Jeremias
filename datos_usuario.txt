@@ -1,1 +1,2 @@
 “Usuario=jere22”
+model name	: Pentium(R) Dual-Core  CPU      E5500  @ 2.80GHz
